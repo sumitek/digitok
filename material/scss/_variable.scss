@@ -140,7 +140,8 @@ $radius: 4px;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
-$font-size-base: 0.875rem !default;
+// $font-size-base: 0.875rem !default;
+$font-size-base: 0.8rem !default;
 $font-weight-base: 300 !default;
 
 // 
@@ -222,7 +223,8 @@ $dropdown-link-color: $body-color !default;
 // 
 $input-border-color: #d9d9d9 !default;
 $input-color: $body-color !default;
-$input-font-size: 1rem !default;
+$input-font-size: .9rem !default;
+// $input-font-size: 1rem !default;
 $input-box-shadow:   none  !default;
 $input-focus-box-shadow: 0 0 0 1px rgba($info, .25) !default;
 $custom-select-focus-box-shadow: transparent !default;

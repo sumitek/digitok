@@ -1,0 +1,31 @@
+/*** Custom CSS Start ***/
+body { font-family: helvetica, sans-serif; font-weight: 400; line-height: 1em; color: #000; }
+/* .topbar { background: rgba(16,10,100,0.2); } */
+.topbar .top-navbar .navbar-header { background: none; }
+.topbar { background: rgb(184,225,252);
+background: -moz-linear-gradient(top,  rgba(184,225,252,1) 0%, rgba(169,210,243,1) 10%, rgba(144,186,228,1) 25%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(107,168,229,1) 51%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);
+background: linear-gradient(to bottom,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 );
+
+ }
+.header__search-box { background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+ }
+.stylish-table thead th { color: #99abb4; }
+.page-wrapper { background: #F7F7F7 url('../../assets/images/background/subtle-stripes.png'); }
+/* .page-titles .d-flex {display:none !important;} */
+.page-titles { padding: 0 15px 15px;
+background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+display:none;
+}
+.container-fluid > div div div.card { margin-top: 20px; }
+
+.sidebar-nav ul li a { font-size: 1em; padding: initial; }
+.sidebar-nav ul li.nav-devider { background: #CCC; margin:10px 0;}
+
+/* -- */
+.login-register { background: url('../../assets/images/background/internet-3484139_1920.jpg') center center; background-size:cover;}

@@ -1,0 +1,169 @@
+/*** Custom CSS Start ***/
+.hide {
+    display: none;
+}
+
+
+// Custom Header Start 
+.header{
+    &__filter-box-cover{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__search-box{
+        background: $sidebar;
+        padding: 10px 15px;
+        position: relative;
+    }
+
+    &__search-filters{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        .checkbox{
+            width: 50%;
+
+            [type=checkbox] + label{
+                font-size: .9rem;
+            }
+        }
+    }
+
+    &__search-input{
+        position: relative;
+
+        .form-control{
+            width: calc(100% - 68px);
+            vertical-align: top;
+        }
+        
+
+        .search{
+            position: absolute;
+            right: 70px;
+            top: 0;
+        }
+    }
+
+    &__fiter-box{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px 15px 0;
+        width: 65%;
+    }
+
+    &__filter-in{
+        width: 33.333%;
+        padding: 0 10px;
+
+        .btn-group{
+            display: block;
+            margin-bottom: 10px;
+            
+            .btn {
+                text-align: left;
+
+                &.btn-secondary {
+                    color: $dark;
+                    background-color: $sidebar;
+                    &:hover, &:active{
+                        color: $sidebar;
+                        background-color: $green;
+                    }
+                }
+
+                &:after {
+                    display: inline-block !important;
+                    margin-left: 0.255em;
+                    vertical-align: 0.255em;
+                    content: "" !important;
+                    border-top: 0.3em solid;
+                    border-right: 0.3em solid transparent;
+                    border-bottom: 0;
+                    border-left: 0.3em solid transparent;
+                    float: right;
+                    margin: 7px 0;
+                }
+            }
+        }
+    }
+}
+
+.left-sidebar{
+    padding-top: 124px;
+
+    .sidebar-tab{
+        .nav-item{
+            width: 50%;
+            text-align: center;
+        }
+    }
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+.mb-15{
+    margin-bottom: 15px !important;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100px;
+}
+// .table,
+// .dropdown-item,
+// .profile-tab li a.nav-link, .customtab li a.nav-link{
+//     color: $body-bg;
+// }
+
+// .dropdown-item{
+//     color: $body-bg !important;
+
+//     &:hover, &:focus{
+//         color: $body-color !important;
+//     }
+// }
+
+.table thead th{
+    white-space: nowrap;
+}
+
+// .stylish-table thead th{
+//     color: $themecolor-alt;
+// }
+
+// .sidebar-nav ul li{
+//     a{
+//         color: $body-bg !important;
+//         &.active, &:hover{
+//             color: $themecolor-alt !important;
+//             i{
+//                 color: $themecolor-alt !important;
+//             }
+//         }
+//         i{
+//             color: $body-bg !important;
+            
+//         }
+//     }
+// }
+
+.sidebar-nav ul li{
+    a{
+        font-size: 14px;
+
+        i{
+            font-size: 20px;
+        }
+    }
+    
+}
+
+/*** Custom CSS End ***/

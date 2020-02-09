@@ -8,7 +8,8 @@ File: scss
    
 $themecolor: #1e88e5; 
 $themecolor-dark: #028ee1;
-$topbar: #1e88e5;  
+// $topbar: #1e88e5; 
+$topbar: #3f536c; 
 $themecolor-alt: #26c6da;    
 @import '../_variable.scss'; 
 /********************
@@ -139,7 +140,7 @@ a.link {
                 }
             }
             &.nav-small-cap {
-                color: $muted;
+                // color: $muted;
             }
         }
     }
