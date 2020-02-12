@@ -202,6 +202,17 @@ $(function () {
     $('#to-recover').on("click", function () {
         $("#loginform").slideUp();
         $("#recoverform").fadeIn();
+        alert('tewt');
+    });
+    $('#to-signin').on("click", function () {
+        $("#recoverform").slideUp();
+        $("#loginform").fadeIn();
+        alert('te');
+    });
+
+    $(function() {
+        $("#sortable").sortable();
+        $("#sortable").disableSelection();
     });
 
     // ==============================================================
