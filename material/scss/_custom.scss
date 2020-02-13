@@ -180,6 +180,18 @@
     }
 }
 
+.question-data-table{
+    &.table{
+        thead{
+            background: $blue-dark;
+
+            th{
+                background: $blue-dark;
+                color: $sidebar;
+            }
+        }
+    }
+}
 .divier-border{
     width: 100%;
     height: 1px;
