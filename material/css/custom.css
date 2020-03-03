@@ -9,12 +9,17 @@ background: linear-gradient(to bottom,  rgba(184,225,252,1) 0%,rgba(169,210,243,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 );
 
  }
+.left-sidebar { padding-top: 70px; }
 .header__search-box { background: #ffffff;
 background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
 background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
  }
+.header__search-input .form-control { width: 100%; }
+.search_form { background-color: palegoldenrod; }
+.search_form .search { position: absolute; right: 0; top: 5px; }
+
 .stylish-table thead th { color: #99abb4; }
 .page-wrapper { background: #F7F7F7 url('../../assets/images/background/subtle-stripes.png'); }
 /* .page-titles .d-flex {display:none !important;} */
@@ -29,3 +34,18 @@ display:none;
 
 /* -- */
 .login-register { background: url('../../assets/images/background/internet-3484139_1920.jpg') center center; background-size:cover;}
+
+.stylish-table thead th {
+    color: #FFF;
+	background-color: navy;
+}
+fieldset { border: solid 1px #CCC; padding: 20px; }
+legend {
+    font-size: 1.4em;
+    padding: 1px 10px;
+    display: initial;
+    width: auto;
+}
+.add-question-box fieldset {
+    background: aliceblue;
+}
